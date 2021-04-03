@@ -1,0 +1,29 @@
+{
+  "name": "firstatmpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/register": "^7.13.8",
+    "babel-polyfill": "^6.26.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.19",
+    "node-localstorage": "^2.1.6",
+    "path": "^0.12.7",
+    "redis": "^3.0.2",
+    "socket.io": "^3.1.2"
+  }
+}

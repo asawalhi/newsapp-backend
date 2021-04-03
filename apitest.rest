@@ -1,0 +1,52 @@
+###
+POST http://localhost:2938/createarticle
+Content-Type: application/json
+
+{
+    "id": "4",
+    "title": "Forth",
+    "author": "Ahmad",
+    "article": "This is a test article",
+    "img": "Image"
+}
+
+###
+GET http://localhost:2938/getallnews
+
+
+###
+GET http://localhost:2938/findarticleanddelete/3
+
+
+###
+POST http://localhost:2938/createAdmin
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "email": "admin@247Update.com",
+    "password": "admin"
+}
+
+###
+POST http://localhost:2938/login
+Content-Type: application/json
+
+{
+    "username": "newsadmin",
+    "password": "newsadmin"
+}
+
+###
+POST http://localhost:2938/findarticleandupdate/
+Content-Type: application/json
+
+{
+    "id": 95,
+    "newId": -95, 
+    "title": "Changed by API", 
+    "author": "lk;kl", 
+    "article": "API test story", 
+    "img": "Image"
+}
+
